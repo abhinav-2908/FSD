@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form Example</title>
+  <link rel="stylesheet" href="cstyle.css">
+</head>
+<body>
+<div class="box">
+    <h2>Registration Form</h2>
+
+    <!-- Form starts -->
+    <form action="submit.php" method="post">
+        
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" required>
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="userpassword" required>
+        <br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        </select>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+    <!-- Form ends -->
+</div>
+
+</body>
+</html>
