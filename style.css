@@ -1,0 +1,47 @@
+#main-heading{
+    background-color:#f67004;
+}
+#a{
+    background-color:#f67004;
+}
+#b{
+    background-color:#383BE5;
+}
+#c{
+    background-color:#2FEE6c;
+}
+.message{
+    color:red;
+}
+a[target]{
+    background-color: blue;
+}
+img[alt]{
+    border-width: 10px;
+    border-color: red;
+}
+input[type=text]{
+    background-color: black;
+    color:white
+    ;
+}
+input[type=password]{
+    background-color: black;
+    color:white
+    ;
+}
+input[type=radio]{
+    background-color: black;
+    color:white
+    ;
+}
+input[type=checkbox]{
+    background-color: black;
+    color:white
+    ;
+}
+*{
+    text-align: justify;
+    background-color: aqua;
+    text-decoration: line-green wavy underline;
+}
