@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-options{
+    display: flex;
+}
+ul li{
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color:yellow;
+    transition: 0.3s;
+}
+body{
+    background-image:repeating-conic-gradient blue 10%,yellow 20%);
+    border-radius: 50%;
+}
