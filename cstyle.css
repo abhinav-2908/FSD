@@ -1,0 +1,11 @@
+.box{
+    background: aqua;
+    color: black;
+    text-align: center;
+
+}
+body{
+    background-image: url("CodeChefBadge.png");
+    background-repeat: repeat;
+    background:linear-gradient(yellow,green)
+}
